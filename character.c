@@ -11,8 +11,8 @@ int main()
     scanf("%d", &age);
     printf("Enter Gender: ");
     scanf("%s", gender);
-    printf("I'm %s.\n", name);
-    printf("I'm %d years old.\n", age);
-    printf("I'm a %s.", gender);
+    printf("I'm %s", name);
+    printf("I'm %d years old\n", age);
+    printf("I'm a %s", gender);
     return 0;
 }
